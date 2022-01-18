@@ -1,0 +1,108 @@
+@import url(reset.css);
+
+body {
+    font-family: Arial, sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+}
+
+.title {
+    display: flex;
+    background-image: url(../img/evian_origins_logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: center;*/
+    height: 100vh;
+    padding-top: 170px;
+}
+
+header {
+    background-color: white;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+    position: fixed;
+    order: 1;
+}
+
+header a {
+    font-size: 50px;
+    line-height: 57px;
+    color: #E50043;
+    text-decoration: none; 
+}
+
+main {
+    width: 100vw;
+    padding-top: 157px;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 115px;
+    color: #E50043;
+    margin:auto;
+}
+
+.composition {
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    width: 1040px;
+    margin: 150px auto;
+    padding: 24px;
+}
+
+.flex-composition {
+    display: flex;
+    padding: 30px;
+}
+
+.text {
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+}
+
+.composition-text {
+    width: 749px;
+}
+
+.composition-img {
+    margin: 0 80px 0 50px;
+}
+.images {
+    width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 48px;
+}
+
+footer {
+    width: 100vw;
+    margin: 0 auto;
+    background-color: #F8BFC7;
+    padding: 50px;
+}
+
+footer a {
+    font-size: 50px;
+    line-height: 57px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
